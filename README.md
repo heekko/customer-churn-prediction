@@ -1,5 +1,3 @@
-# customer-churn-prediction
-
 # Customer Churn Prediction and Retention Insights
 
 ## Project Overview
