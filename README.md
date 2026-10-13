@@ -23,8 +23,11 @@ Models used:
 - Logistic Regression
 - Random Forest
 
-## Dashboard
-![Dashboard pdf](powerbi/customer_churn_analysis_dashboard.pdf)
+## Power BI Dashboard
+![Dashboard pdf](powerbi/customer_churn_analysis_dashboard.png)
+The updated Power BI dashboard presents customer churn KPIs and churn-rate comparisons across contract types, customer tenure and payment methods. It also summarises key findings and potential retention strategies.
+
+The original exploratory dashboard is retained in the powerbi/archive/ folder for reference.
 
 ## Recommendations
 - Encourage month-to-month customers to move to longer-term contracts.
