@@ -22,6 +22,7 @@ The aim is to identify customers at high risk of churn, explore factors associat
 Two classification models were developed to predict customer churn:
 
 | Model | Accuracy | Precision | Recall | F1 score | ROC-AUC |
+|---|---|---|---|---|---|
 | Logistic Regression | 0.80 | 0.65 | 0.57 | 0.61 | 0.84 |
 | Random Forest | 0.79 | 0.63 | 0.52 | 0.57 | 0.82 |
 
