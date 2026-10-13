@@ -3,12 +3,17 @@
 ## Project Overview
 This project analyses customer churn using Python, SQL, machine learning and Power BI to identify churn patterns and support customer retention decisions.
 
+## Dataset
+This project uses the IBM Telco Customer Churn dataset.
+- **Source:** [Kaggle – Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn/data)
+- **File:** `WA_Fn-UseC_-Telco-Customer-Churn.csv`
+
 ## Business Problem
 The aim is to identify customers at high risk of churn, explore factors associated with customer attrition and provide potential retention recommendations.
 
 ## Tools Used
 - Python (pandas, scikit-learn, matplotlib, seaborn)
-- SQL (SQLite and MySQL)
+- SQL (SQLite and MariaDB)
 - Power BI
 - Jupyter Notebook
 
@@ -20,13 +25,12 @@ The aim is to identify customers at high risk of churn, explore factors associat
 
 ## Machine Learning
 Two classification models were developed to predict customer churn:
-
 | Model | Accuracy | Precision | Recall | F1 score | ROC-AUC |
 |---|---|---|---|---|---|
 | Logistic Regression | 0.80 | 0.65 | 0.57 | 0.61 | 0.84 |
 | Random Forest | 0.79 | 0.63 | 0.52 | 0.57 | 0.82 |
 
-Logistic Regression achieved the better overall performance on the test dataset.
+Logistic Regression outperformed Random Forest across the evaluated classification metrics on the test dataset.
 
 ## Power BI Dashboard
 ![View Customer Churn Dashboard](powerbi/customer_churn_analysis_dashboard.png)
@@ -34,7 +38,7 @@ The updated Power BI dashboard presents customer churn KPIs and churn-rate compa
 
 The original exploratory dashboard is retained in the powerbi/archive/ folder for reference.
 
-## Suggestions
+## Recommendations
 - Prioritise retention efforts for customers with month-to-month contracts.
 - Explore opportunities to encourage longer-term contracts.
 - Strengthen early customer engagement and on-boarding.
